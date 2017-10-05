@@ -1,0 +1,24 @@
+In a new directory, create a file called data_structures.js
+
+Study up on arrays
+https://repl.it/CA1g
+
+In your new file, declare two separate arrays:
+-an array of four colors ("blue", for instance, though you're welcome to get crazy with 
+something like "iridescent blue/green with silver sparkles")
+-an array of four names that you might give a horse ("Ed" is always a solid choice to start with)
+Write code that adds another color to the colors array and another name to the names array
+
+Study up on hashes
+https://repl.it/CA4b/36
+
+We need to assign colors to horses. In data_structures.js, add code that will use your two arrays to create an object. 
+The keys of your object should be horse names, and the values should be colors. Your solution should be something that would work for
+any number of colors/horses, as long as the two arrays are the same length. 
+
+Study up on constructors (they're like classes for Ruby)
+https://repl.it/CA4q/2
+
+ At the bottom of your data_structures.js file, write a constructor function for a car. 
+ Give it a few different properties of various data types, including at least one function.
+ Demonstrate that your function works by creating a few cars with it.
