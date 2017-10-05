@@ -8,4 +8,4 @@ Javascript Algorithms/Data Structures
 
 ## For Next Time
 
-Flatiron JS Arrays
+Flatiron JS Data Structures
