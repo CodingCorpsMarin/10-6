@@ -1,0 +1,28 @@
+
+Competencies
+
+JS data structures include: Arrays, Linked Lists, Sets, etc
+In JS, Arrays are implemented as Objects. Keys are numerical values at their respective indices. They operate in the same way as arrays in Ruby.
+Common Array operations: pop(), push(), indexOf()
+push() appends a new element to the end of an array
+pop() removes the last element of an array
+indexOf() returns the index position of a named element
+These should also be familiar to you: map(), and reduce()
+map() produces a new array, reduce() applies certain logic to an array and boils it down to a single value
+Linked Lists are the JS equivalent of hashes
+Sets are arrays except every element in a Set must be unique
+
+
+Applications
+Work with and be comfortable in JS data structures
+Practice algorithms in JS for potential technical interviews
+
+
+
+
+
+
+Resources:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSPR/Reference/Linked_Lists
