@@ -1,0 +1,44 @@
+We're going to write a function that takes an array of words/phrases and returns the longest one.
+For example, if we had an array ["long", "longer", "longest"], our function would return "longest".
+
+Begin by declaring our function
+
+function longestWord(arr) {
+  // Initiate a variable that will hold the length of the longest word
+  var longestWord = "";
+  // Create the FOR loop
+  for(var i = 0; i < arr.length; i++){
+    if(arr[i].length > longestWord.length) { // If arr[i].length is greater than the word it is compared with...
+      longestWord = arr[i]; // ... then it becomes the new longestWord
+    }
+  }
+  return longestWord
+}
+
+Test it out!
+
+Take two objects and check to see if they share at least one key-value pair
+Loop through the two objects and check their keys and values
+If anything matches, return true, else, return false
+For example, if we had {name: "Steven", age: 54} and {name: "Tamir", age: 54}, the function would return true, because at least 
+one key-value pair matches between the two objects.
+
+Begin by declaring our function
+
+function matchObjects(object1, object2) {
+  // Create FOR loop
+  for (var key in object1) { // looping through each key in this key-value pair
+		if (object2[key] == object1[key]) { // comparing keys
+			return true; // if condition is met, true
+		}
+	}
+	  return false; // else, false
+}
+
+Test it out! 
+var boy = {name: 'Jimmy', age: 26}
+var girl = {name: 'Alice', age: 26}
+var dog = {name: 'Rover', age: 7}
+console.log("Do Jimmy and Alice share something in common? " + matchObjects(boy, girl)) // true
+
+
